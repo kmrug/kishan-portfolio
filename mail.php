@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //         $msg['err'] = "\n Error sending email. Please try again later.";
     //         $msg['code'] = FALSE;
     //     }    
-    // }
-    // echo json_encode($msg);
-    echo json_encode("\n Email has been sent successfully.");
+    // }    
+    $msg['success'] = "\n Email has been sent successfully.";
+    echo json_encode($msg);
 }
