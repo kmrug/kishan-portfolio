@@ -75,5 +75,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //         $msg['code'] = FALSE;
     //     }    
     // }
-    echo json_encode($msg);
+    // echo json_encode($msg);
+    echo json_encode("\n Email has been sent successfully.");
 }
